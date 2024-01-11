@@ -1,0 +1,726 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Bytes {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+}
+
+#Tier-1 {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+#txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 130px;
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#txt-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#txt-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#txt-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: aqua;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#bat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 230px;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#bat-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#bat-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#bat-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: maroon;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#dll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 330px;
+    background-color: purple;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#dll-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#dll-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#dll-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: rgb(78, 5, 78);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#bpm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 430px;
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#bpm-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#bpm-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#bpm-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: greenyellow;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#pdf {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 530px;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#pdf-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#pdf-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#pdf-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: grey;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#doc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 630px;
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#doc-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#doc-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#doc-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: orangered;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#Tier-2 {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 450px;
+    margin-top: 80px;
+}
+
+#png {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 130px;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#png-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#png-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+#png-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: rgb(176, 208, 15);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#jpg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 230px;
+    background-color: darkorange;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#jpg-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#jpg-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#jpg-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: rgb(62, 30, 4);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#psd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 330px;
+    background-color: pink;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#psd-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#psd-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#psd-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: rgba(221, 32, 243, 0.484);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#ico {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 430px;
+    background-image: linear-gradient(90deg, lime, green);
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#ico-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#ico-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#ico-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-image: linear-gradient(90deg,yellowgreen, rgba(15, 180, 15, 0.575));
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 530px;
+    background-image: linear-gradient(90deg, red, rgb(255, 0, 68));
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#gif-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#gif-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#gif-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-image: linear-gradient(90deg, red, purple);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#rar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 350px;
+    margin-top: 630px;
+    background-image: linear-gradient(90deg, red, orange);
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#rar-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#rar-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#rar-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-image: linear-gradient(90deg, orangered, yellowgreen);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#Tier-3 {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 750px;
+    margin-top: 80px;
+}
+
+#zip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 650px;
+    margin-top: 130px;
+    background-image: linear-gradient(90deg, purple, red);
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#zip-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#zip-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#zip-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: rgba(81, 75, 75, 0.408);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#z7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 650px;
+    margin-top: 230px;
+    background-color: chartreuse;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#z7-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#z7-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+#z7-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: rgb(120, 210, 30);
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#exe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 650px;
+    margin-top: 330px;
+    background-image: url(image/glitch\ image.png);
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#exe-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#exe-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#exe-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: black;
+    color: white;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#scp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 650px;
+    margin-top: 430px;
+    background-image: linear-gradient(90deg, grey, rgb(88, 84, 84));
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#scp-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#scp-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+#scp-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-image: linear-gradient(90deg, grey, rgb(43, 41, 41));
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#File-666 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 650px;
+    margin-top: 530px;
+    background-color: #7E0014;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#File-666-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#File-666-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#File-666-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: black;
+    color: red;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#File-777 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 650px;
+    margin-top: 630px;
+    background-color: rgb(68, 255, 0);
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+#File-777-number {
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-top: 10px;
+}
+
+#File-777-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+#File-777-timer-producer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    background-color: lightgreen;
+    width: 65px;
+    height: 40px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
