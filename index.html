@@ -5,13 +5,18 @@
     <link rel="stylesheet" href="styles.css">
     <title>Incremental Data</title>
 </head>
-<body>
+<body onload="Get()">
     <div id="Bytes"> 0 Bytes </div>
     <div id="Tier-1"> Tier 1 </div>
-    <div id="txt">
+    <div id="txt" onclick="OpenTxtMilestone()" ondblclick="CloseTxtMilestone()">
         <div id="txt-number"> .txt = 0 </div>
         <div id="txt-effect"> +1 Byte/sec </div>
         <div id="txt-timer-producer"> 0:05 </div>
+        <div class="txt-milestone" id="txt-milestone">
+            <div id="txt-ms-name"> txt Milestone </div>
+            <div id="txt-boost-requirment"> 0 / 25 </div>
+            <div id="txt-booster"> /1 to the txt timer </div>
+        </div>
     </div>
     <div id="bat">
         <div id="bat-number"> .bat = 0 </div>
@@ -100,10 +105,27 @@
         <div id="File-777-effect"> 17.77 Tb/sec </div>
         <div id="File-777-timer-producer"> 5:33 </div>
     </div>
+    <div id="tabs">
+        <div id="Chips-Tab" onclick="OpenChipsContent()"> Chips </div>
+    </div>
+    <div class="Chips-content" id="Chips-content">
+        <div id="Tab-Chips-name"> Chips </div>
+        <div id="Chips-effect"> You have 0 Chips, which gives 10% boost 
+            <br> You will gain 0 Chips on reset.    
+        </div>
+        <div id="Chips-gain"> Reach 5 YottaBytes to Reset </div>
+        <div id="Chips-shop-button"> Shop </div>
+        <div id="close-chips" onclick="CloseChipsContent()"> Close </div>
+    </div>
+    <audio autoplay loop="loop">
+        <source src="music/Kiss_of_a_Harpist.mp3" type="audio/mp3">
+    </audio>
 </body>
 <script src="JS/break_eternity.js"></script>
 <script src="JS/numberFormatting.js"></script>
+<script src="JS/Save.js"></script>
 <script src="JS/main.js"></script>
-<script src="JS/Gameloop.js"></script>
 <script src="JS/tabs.js"></script>
+<script src="JS/Gameloop.js"></script>
+<script src="JS/Prefixes.js"></script>
 </html>

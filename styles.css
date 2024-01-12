@@ -1,5 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    user-select: none;
 }
 
 #Bytes {
@@ -53,6 +55,44 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.txt-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-txt-milestone {
+    visibility: visible;
+}
+
+#txt-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#txt-boost-requirment {
+    width: 75px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 36px;
+}
+
+#txt-booster {
+    text-align: center;
+    font-size: 13px;
 }
 
 #bat {
@@ -430,7 +470,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 80px;
+    margin-left: 85px;
     margin-top: 20px;
 }
 
@@ -468,7 +508,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 20px;
 }
 
@@ -723,4 +763,116 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+#tabs {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+    background-color: rgb(192, 191, 191);
+    width: 200px;
+    height: 700px;
+}
+
+#Chips-Tab {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: lime;
+}
+
+#Chips-Tab:hover {
+    background-color: rgb(13, 189, 13);
+    cursor: pointer;
+}
+
+.Chips-content {
+    width: 400px;
+    height: 300px;
+    background-color: lime;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 570px;
+    margin-top: 200px;
+    border-radius: 20px;
+    border: 5px solid black;
+    text-align: center;
+    visibility: hidden;
+}
+
+.show-Chips-content {
+    visibility: visible;
+}
+
+#Tab-Chips-name {
+    font-size: 30px;
+}
+
+#Chips-effect {
+    font-size: 20px;
+}
+
+#Chips-gain {
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: grey;
+    border-radius: 20px;
+    border: 4px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#Chips-gain:hover {
+    background-color: rgb(177, 172, 172);
+    cursor: pointer;
+}
+
+#Chips-shop-button {
+    width: 250px;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgb(12, 93, 12);
+    border-radius: 20px;
+    border: 4px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 190px;
+    margin-left: 75px;
+}
+
+#Chips-shop-button:hover {
+    background-color: rgba(13, 105, 13, 0.548);
+    cursor: pointer;
+}
+
+#close-chips {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    width: 100px;
+    height: 20px;
+    padding-top: 3px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+#close-chips:hover {
+    background-color: #9e0d0d;
+    cursor: pointer;
 }

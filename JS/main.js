@@ -4,6 +4,10 @@ let player = {
         amount: new Decimal(0),
         effect: new Decimal(1),
         timer: new Decimal(5),
+        Milestone: {
+            requirment: new Decimal(25),
+            boost: new Decimal(1),
+        },
     },
     bat: {
         amount: new Decimal(0),
@@ -63,7 +67,7 @@ let player = {
     zip: {
         amount: new Decimal(0),
         effect: new Decimal(3.251e7),
-        timer: new Decimal("1:06"),
+        timer: new Decimal(66),
     },
     z7: {
         amount: new Decimal(0),
