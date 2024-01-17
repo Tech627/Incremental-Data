@@ -10,6 +10,18 @@ body {
     color: black;
 }
 
+#Exp {
+    width: 300px;
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(22, 152, 152);
+}
+
 #Tier-1 {
     font-size: 20px;
     position: absolute;
@@ -82,12 +94,12 @@ body {
 }
 
 #txt-boost-requirment {
-    width: 75px;
+    width: 120px;
     height: 20px;
     padding-top: 5px;
     text-align: center;
     background-color: grey;
-    margin-left: 36px;
+    margin-left: 15px;
 }
 
 #txt-booster {
@@ -133,6 +145,59 @@ body {
     padding-left: 10px;
 }
 
+.bat-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-bat-milestone {
+    visibility: visible;
+}
+
+#bat-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#bat-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#bat-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-bat {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 230px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
 #dll {
     position: absolute;
     top: 0;
@@ -171,6 +236,59 @@ body {
     padding-left: 10px;
 }
 
+.dll-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: purple;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-dll-milestone {
+    visibility: visible;
+}
+
+#dll-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#dll-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#dll-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-dll {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 330px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
 #bpm {
     position: absolute;
     top: 0;
@@ -207,6 +325,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.bpm-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-bpm-milestone {
+    visibility: visible;
+}
+
+#bpm-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#bpm-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#bpm-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-bpm {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 430px;
+    margin-left: 50px;
+    z-index: 1;
 }
 
 #pdf {
@@ -248,6 +419,59 @@ body {
     padding-left: 10px;
 }
 
+.pdf-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid grey;
+    visibility: hidden;
+}
+
+.show-pdf-milestone {
+    visibility: visible;
+}
+
+#pdf-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#pdf-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#pdf-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-pdf {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 530px;
+    margin-left: 50px;
+    z-index: 1;
+}
+
 #doc {
     position: absolute;
     top: 0;
@@ -284,6 +508,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.doc-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-doc-milestone {
+    visibility: visible;
+}
+
+#doc-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#doc-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#doc-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-doc {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 630px;
+    margin-left: 50px;
+    z-index: 1;
 }
 
 #Tier-2 {
@@ -333,6 +610,59 @@ body {
     padding-left: 10px;
 }
 
+.png-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-png-milestone {
+    visibility: visible;
+}
+
+#png-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#png-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#png-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-png {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 130px;
+    margin-left: 350px;
+    z-index: 1;
+}
+
 #jpg {
     position: absolute;
     top: 0;
@@ -369,6 +699,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.jpg-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: darkorange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-jpg-milestone {
+    visibility: visible;
+}
+
+#jpg-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#jpg-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#jpg-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-jpg {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 230px;
+    margin-left: 350px;
+    z-index: 1;
 }
 
 #psd {
@@ -409,6 +792,59 @@ body {
     padding-left: 10px;
 }
 
+.psd-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-psd-milestone {
+    visibility: visible;
+}
+
+#psd-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#psd-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#psd-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-psd {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 330px;
+    margin-left: 350px;
+    z-index: 1;
+}
+
 #ico {
     position: absolute;
     top: 0;
@@ -445,6 +881,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.ico-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-image: linear-gradient(90deg, lime, green);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-ico-milestone {
+    visibility: visible;
+}
+
+#ico-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#ico-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#ico-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-ico {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 430px;
+    margin-left: 350px;
+    z-index: 1;
 }
 
 #gif {
@@ -486,6 +975,59 @@ body {
     padding-left: 10px;
 }
 
+.gif-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-image: linear-gradient(90deg, red, rgb(255, 0, 68));
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-gif-milestone {
+    visibility: visible;
+}
+
+#gif-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#gif-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#gif-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-gif {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 530px;
+    margin-left: 350px;
+    z-index: 1;
+}
+
 #rar {
     position: absolute;
     top: 0;
@@ -522,6 +1064,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.rar-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-image: linear-gradient(90deg, red, orange);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-rar-milestone {
+    visibility: visible;
+}
+
+#rar-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#rar-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#rar-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-rar {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 630px;
+    margin-left: 350px;
+    z-index: 1;
 }
 
 #Tier-3 {
@@ -571,6 +1166,59 @@ body {
     padding-left: 10px;
 }
 
+.zip-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-image: linear-gradient(90deg, purple, red);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-zip-milestone {
+    visibility: visible;
+}
+
+#zip-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#zip-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#zip-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-zip {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 130px;
+    margin-left: 650px;
+    z-index: 1;
+}
+
 #z7 {
     position: absolute;
     top: 0;
@@ -607,6 +1255,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.z7-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: chartreuse;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-z7-milestone {
+    visibility: visible;
+}
+
+#z7-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#z7-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#z7-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-z7 {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 230px;
+    margin-left: 650px;
+    z-index: 1;
 }
 
 #exe {
@@ -649,6 +1350,59 @@ body {
     padding-left: 10px;
 }
 
+.exe-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-image: url(image/glitch\ image.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-exe-milestone {
+    visibility: visible;
+}
+
+#exe-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#exe-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#exe-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-exe {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 330px;
+    margin-left: 650px;
+    z-index: 1;
+}
+
 #scp {
     position: absolute;
     top: 0;
@@ -685,6 +1439,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.scp-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-image: linear-gradient(90deg, grey, rgb(88, 84, 84));
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-scp-milestone {
+    visibility: visible;
+}
+
+#scp-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#scp-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#scp-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-scp {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 430px;
+    margin-left: 650px;
+    z-index: 1;
 }
 
 #File-666 {
@@ -727,6 +1534,60 @@ body {
     padding-left: 10px;
 }
 
+.File-666-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: black;
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-File-666-milestone {
+    visibility: visible;
+}
+
+#File-666-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#File-666-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#File-666-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-File-666 {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 530px;
+    margin-left: 650px;
+    z-index: 1;
+}
+
 #File-777 {
     position: absolute;
     top: 0;
@@ -763,6 +1624,59 @@ body {
     height: 40px;
     padding-top: 20px;
     padding-left: 10px;
+}
+
+.File-777-milestone {
+    width: 150px;
+    height: 70px;
+    padding-top: 10px;
+    background-color: rgb(68, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -90px;
+    margin-left: 125px;
+    border-radius: 20px;
+    border: 3px solid black;
+    visibility: hidden;
+}
+
+.show-File-777-milestone {
+    visibility: visible;
+}
+
+#File-777-ms-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+#File-777-boost-requirment {
+    width: 120px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: grey;
+    margin-left: 15px;
+}
+
+#File-777-booster {
+    text-align: center;
+    font-size: 13px;
+}
+
+.Locked-File-777 {
+    width: 275px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 630px;
+    margin-left: 650px;
+    z-index: 1;
 }
 
 #tabs {

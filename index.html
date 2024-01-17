@@ -7,6 +7,7 @@
 </head>
 <body onload="Get()">
     <div id="Bytes"> 0 Bytes </div>
+    <div id="Exp"> Level 1 | 0 / 10 exp </div>
     <div id="Tier-1"> Tier 1 </div>
     <div id="txt" onclick="OpenTxtMilestone()" ondblclick="CloseTxtMilestone()">
         <div id="txt-number"> .txt = 0 </div>
@@ -18,92 +19,228 @@
             <div id="txt-booster"> /1 to the txt timer </div>
         </div>
     </div>
-    <div id="bat">
+    <div class="Locked-bat" id="Locked-bat"> Locked 
+        <br> Reach Lvl.3 to Unlock
+    </div>
+    <div id="bat" onclick="OpenBatMilestone()" ondblclick="CloseBatMilestone()">
         <div id="bat-number"> .bat = 0 </div>
         <div id="bat-effect"> +12 Bytes/sec </div>
         <div id="bat-timer-producer"> 0:08 </div>
+        <div class="bat-milestone" id="bat-milestone">
+            <div id="bat-ms-name"> bat Milestone </div>
+            <div id="bat-boost-requirment"> 0 / 25 </div>
+            <div id="bat-booster"> /1 to the bat timer </div>
+        </div>
     </div>
-    <div id="dll">
+    <div class="Locked-dll" id="Locked-dll"> Locked
+        <br> Reach Lvl.6 to Unlock    
+    </div>
+    <div id="dll" onclick="OpenDllMilestone()" ondblclick="CloseDllMilestone()">
         <div id="dll-number"> .dll = 0 </div>
         <div id="dll-effect"> +21 Bytes/sec </div>
         <div id="dll-timer-producer"> 0:12 </div>
+        <div class="dll-milestone" id="dll-milestone">
+            <div id="dll-ms-name"> dll Milestone </div>
+            <div id="dll-boost-requirment"> 0 / 25 </div>
+            <div id="dll-booster"> /1 to the dll timer </div>
+        </div>
     </div>
-    <div id="bpm">
+    <div class="Locked-bpm" id="Locked-bpm"> Locked 
+        <br> Reach Lvl.9 to Unlock
+    </div>
+    <div id="bpm" onclick="OpenBpmMilestone()" ondblclick="CloseBpmMilestone()">
         <div id="bpm-number"> .bpm = 0 </div>
         <div id="bpm-effect"> +96 Bytes/sec </div>
         <div id="bpm-timer-producer"> 0:15 </div>
+        <div class="bpm-milestone" id="bpm-milestone">
+            <div id="bpm-ms-name"> bpm Milestone </div>
+            <div id="bpm-boost-requirment"> 0 / 25 </div>
+            <div id="bpm-booster"> /1 to the bpm timer </div>
+        </div>
     </div>
-    <div id="pdf">
+    <div class="Locked-pdf" id="Locked-pdf"> Locked 
+        <br>Reach Lvl.12 to Unlock
+    </div>
+    <div id="pdf" onclick="OpenPdfMilestone()" ondblclick="ClosePdfMilestone()">
         <div id="pdf-number"> .pdf = 0 </div>
         <div id="pdf-effect"> +242 Bytes/sec </div>
         <div id="pdf-timer-producer"> 0:19 </div>
+        <div class="pdf-milestone" id="pdf-milestone">
+            <div id="pdf-ms-name"> pdf Milestone </div>
+            <div id="pdf-boost-requirment"> 0 / 25 </div>
+            <div id="pdf-booster"> /1 to the pdf timer </div>
+        </div>
     </div>
-    <div id="doc">
+    <div class="Locked-doc" id="Locked-doc"> Locked 
+        <br>Reach Lvl.16 to Unlock
+    </div>
+    <div id="doc" onclick="OpenDocMilestone()" ondblclick="CloseDocMilestone()">
         <div id="doc-number"> .doc = 0 </div>
         <div id="doc-effect"> +919 Bytes/sec </div>
         <div id="doc-timer-producer"> 0:22 </div>
+        <div class="doc-milestone" id="doc-milestone">
+            <div id="doc-ms-name"> doc Milestone </div>
+            <div id="doc-boost-requirment"> 0 / 25 </div>
+            <div id="doc-booster"> /1 to the doc timer </div>
+        </div>
     </div>
     <div id="Tier-2"> Tier 2 </div>
-    <div id="png">
+    <div class="Locked-png" id="Locked-png"> Locked 
+        <br>Reach Lvl.20 to Unlock
+    </div>
+    <div id="png" onclick="OpenPngMilestone()" ondblclick="ClosePngMilestone()">
         <div id="png-number"> .png = 0 </div>
         <div id="png-effect"> +2.88 Kb/sec </div>
         <div id="png-timer-producer"> 0:28 </div>
+        <div class="png-milestone" id="png-milestone">
+            <div id="png-ms-name"> png Milestone </div>
+            <div id="png-boost-requirment"> 0 / 25 </div>
+            <div id="png-booster"> /1 to the png timer </div>
+        </div>
     </div>
-    <div id="jpg">
+    <div class="Locked-jpg" id="Locked-jpg"> Locked 
+        <br>Reach Lvl.22 to Unlock
+    </div>
+    <div id="jpg" onclick="OpenJpgMilestone()" ondblclick="CloseJpgMilestone()">
         <div id="jpg-number"> .jpg = 0 </div>
         <div id="jpg-effect"> +11.98 Kb/sec </div>
         <div id="jpg-timer-producer"> 0:33 </div>
+        <div class="jpg-milestone" id="jpg-milestone">
+            <div id="jpg-ms-name"> jpg Milestone </div>
+            <div id="jpg-boost-requirment"> 0 / 25 </div>
+            <div id="jpg-booster"> /1 to the jpg timer </div>
+        </div>
     </div>
-    <div id="psd">
+    <div class="Locked-psd" id="Locked-psd"> Locked 
+        <br>Reach Lvl.25 to Unlock
+    </div>
+    <div id="psd" onclick="OpenPsdMilestone()" ondblclick="ClosePsdMilestone()">
         <div id="psd-number"> .psd = 0 </div>
         <div id="psd-effect"> +54.17 Kb/sec </div>
         <div id="psd-timer-producer"> 0:38 </div>
+        <div class="psd-milestone" id="psd-milestone">
+            <div id="psd-ms-name"> psd Milestone </div>
+            <div id="psd-boost-requirment"> 0 / 25 </div>
+            <div id="psd-booster"> /1 to the psd timer </div>
+        </div>
     </div>
-    <div id="ico">
+    <div class="Locked-ico" id="Locked-ico"> Locked
+        <br>Reach Lvl.28 to Unlock
+    </div>
+    <div id="ico" onclick="OpenIcoMilestone()" ondblclick="CloseIcoMilestone()">
         <div id="ico-number"> .ico = 0 </div>
         <div id="ico-effect"> +262.4 Kb/sec </div>
         <div id="ico-timer-producer"> 0:44 </div>
+        <div class="ico-milestone" id="ico-milestone">
+            <div id="ico-ms-name"> ico Milestone </div>
+            <div id="ico-boost-requirment"> 0 / 25 </div>
+            <div id="ico-booster"> /1 to the ico timer </div>
+        </div>
     </div>
-    <div id="gif">
+    <div class="Locked-gif" id="Locked-gif"> Locked 
+        <br>Reach Lvl.30 to Unlock
+    </div>
+    <div id="gif" onclick="OpenGifMilestone()" ondblclick="CloseGifMilestone()">
         <div id="gif-number"> .gif = 0 </div>
         <div id="gif-effect"> +897.61 Kb/sec </div>
         <div id="gif-timer-producer"> 0:49 </div>
+        <div class="gif-milestone" id="gif-milestone">
+            <div id="gif-ms-name"> gif Milestone </div>
+            <div id="gif-boost-requirment"> 0 / 25 </div>
+            <div id="gif-booster"> /1 to the gif timer </div>
+        </div>
     </div>
-    <div id="rar">
+    <div class="Locked-rar" id="Locked-rar"> Locked 
+        <br>Reach Lvl.32 to Unlock
+    </div>
+    <div id="rar" onclick="OpenRarMilestone()" ondblclick="CloseRarMilestone()">
         <div id="rar-number"> .rar = 0 </div>
         <div id="rar-effect"> +2.76 Mb/sec </div>
         <div id="rar-timer-producer"> 0:56 </div>
+        <div class="rar-milestone" id="rar-milestone">
+            <div id="rar-ms-name"> rar Milestone </div>
+            <div id="rar-boost-requirment"> 0 / 25 </div>
+            <div id="rar-booster"> /1 to the rar timer </div>
+        </div>
     </div>
     <div id="Tier-3"> Tier 3 </div>
-    <div id="zip">
+    <div class="Locked-zip" id="Locked-zip"> Locked
+        <br>Reach Lvl.34 to Unlock        
+    </div>
+    <div id="zip" onclick="OpenZipMilestone()" ondblclick="CloseZipMilestone()">
         <div id="zip-number"> .zip = 0 </div>
         <div id="zip-effect"> +32.51 Mb/sec </div>
         <div id="zip-timer-producer"> 1:06 </div>
+        <div class="zip-milestone" id="zip-milestone">
+            <div id="zip-ms-name"> zip Milestone </div>
+            <div id="zip-boost-requirment"> 0 / 25 </div>
+            <div id="zip-booster"> /1 to the zip timer </div>
+        </div>
     </div>
-    <div id="z7">
+    <div class="Locked-z7" id="Locked-z7"> Locked 
+        <br>Reach Lvl.35 to Unlock 
+    </div>
+    <div id="z7" onclick="OpenZ7Milestone()" ondblclick="CloseZ7Milestone()">
         <div id="z7-number"> .7z = 0 </div>
         <div id="z7-effect"> +105.21 Mb/sec </div>
         <div id="z7-timer-producer"> 1:23 </div>
+        <div class="z7-milestone" id="z7-milestone">
+            <div id="z7-ms-name"> rar Milestone </div>
+            <div id="z7-boost-requirment"> 0 / 25 </div>
+            <div id="z7-booster"> /1 to the 7z timer </div>
+        </div>
     </div>
-    <div id="exe">
+    <div class="Locked-exe" id="Locked-exe"> Locked 
+        <br>Reach Lvl.36 to Unlock
+    </div>
+    <div id="exe" onclick="OpenExeMilestone()" ondblclick="CloseExeMilestone()">
         <div id="exe-number"> .exe = 0 </div>
         <div id="exe-effect"> +2.88 Gb/sec </div>
         <div id="exe-timer-producer"> 1:52 </div>
+        <div class="exe-milestone" id="exe-milestone">
+            <div id="exe-ms-name"> exe Milestone </div>
+            <div id="exe-boost-requirment"> 0 / 25 </div>
+            <div id="exe-booster"> /1 to the exe timer </div>
+        </div>
     </div>
-    <div id="scp">
+    <div class="Locked-scp" id="Locked-scp"> Locked
+        <br>Reach Lvl.39 to Unlock
+    </div>
+    <div id="scp" onclick="OpenScpMilestone()" ondblclick="CloseScpMilestone()">
         <div id="scp-number"> .scp = 0 </div>
         <div id="scp-effect"> +31.11 Gb/sec </div>
         <div id="scp-timer-producer"> 2:38 </div>
+        <div class="scp-milestone" id="scp-milestone">
+            <div id="scp-ms-name"> scp Milestone </div>
+            <div id="scp-boost-requirment"> 0 / 25 </div>
+            <div id="scp-booster"> /1 to the scp timer </div>
+        </div>
     </div>
-    <div id="File-666">
+    <div class="Locked-File-666" id="Locked-File-666"> Locked 
+        <br>Reach Lvl.43 to Unlock
+    </div>
+    <div id="File-666" onclick="OpenFile666Milestone()" ondblclick="CloseFile666Milestone()">
         <div id="File-666-number"> .666 = 0 </div>
         <div id="File-666-effect"> +666.67 Gb/sec </div>
         <div id="File-666-timer-producer"> 3:32 </div>
+        <div class="File-666-milestone" id="File-666-milestone">
+            <div id="File-666-ms-name"> 666 Milestone </div>
+            <div id="File-666-boost-requirment"> 0 / 25 </div>
+            <div id="File-666-booster"> /1 to the 666 timer </div>
+        </div>
     </div>
-    <div id="File-777">
+    <div class="Locked-File-777" id="Locked-File-777"> Locked 
+        <br>Reach Lvl.45 to Unlock
+    </div>
+    <div id="File-777" onclick="OpenFile777Milestone()" ondblclick="CloseFile777Milestone()">
         <div id="File-777-number"> .777 = 0 </div>
         <div id="File-777-effect"> 17.77 Tb/sec </div>
         <div id="File-777-timer-producer"> 5:33 </div>
+        <div class="File-777-milestone" id="File-777-milestone">
+            <div id="File-777-ms-name"> 777 Milestone </div>
+            <div id="File-777-boost-requirment"> 0 / 25 </div>
+            <div id="File-777-booster"> /1 to the 777 timer </div>
+        </div>
     </div>
     <div id="tabs">
         <div id="Chips-Tab" onclick="OpenChipsContent()"> Chips </div>
@@ -127,5 +264,8 @@
 <script src="JS/main.js"></script>
 <script src="JS/tabs.js"></script>
 <script src="JS/Gameloop.js"></script>
+<script src="JS/Milestones.js"></script>
+<script src="JS/Leveling.js"></script>
+<script src="JS/unlocking.js"></script>
 <script src="JS/Prefixes.js"></script>
 </html>

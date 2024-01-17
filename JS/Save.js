@@ -1,6 +1,8 @@
 function Save() {
     if(localStorage) {
         localStorage.setItem("Bytes", JSON.stringify(player.Bytes))
+        localStorage.setItem("Exp", JSON.stringify(player.Expirience))
+        localStorage.setItem("Level", JSON.stringify(player.Level))
         localStorage.setItem("txt-timer", JSON.stringify(player.txt.timer))
         localStorage.setItem("txt-amount", JSON.stringify(player.txt.amount))
         localStorage.setItem("txt-effect", JSON.stringify(player.txt.effect))
@@ -61,6 +63,8 @@ function Save() {
 function Get() {
     if(localStorage) {
         const SavedBytes = localStorage.getItem("Bytes");
+        const SavedExpirience = localStorage.getItem("Exp")
+        const SavedLevel = localStorage.getItem("Level")
         const SavedTxt_timer = localStorage.getItem("txt-timer")
         const SavedTxt_amount = localStorage.getItem("txt-amount")
         const SavedTxt_effect = localStorage.getItem("txt-effect")
@@ -117,6 +121,12 @@ function Get() {
         const SavedFile_777_effect = localStorage.getItem("File_777-effect")
         if(SavedBytes) {
             player.Bytes = new Decimal(JSON.parse(SavedBytes));
+        }
+        if(SavedExpirience) {
+            player.Expirience = new Decimal(JSON.parse(SavedExpirience));
+        }
+        if(SavedLevel) {
+            player.Level = new Decimal(JSON.parse(SavedLevel))
         }
         if(SavedTxt_timer) {
             player.txt.timer = new Decimal(JSON.parse(SavedTxt_timer))
